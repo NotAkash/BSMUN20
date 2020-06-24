@@ -5,24 +5,24 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans&family=Raleway&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Satellite Magazine: Website">
+  <meta name="author" content="Akash Singh">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Pangolin&display=swap" rel="stylesheet">
 
   <title>Satellite - Student Council Magazine</title>
 
-  <!-- Bootstrap Core CSS -->
+  <!-- Plugin CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="vendor/mdbootstrap/css/mdb.lite.css" rel="stylesheet">
+  
   <!-- Custom Fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
-
+  <link href="css/styles.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -34,7 +34,7 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top" style="font-family: 'Lato', sans-serif;">Satellite</a>
+        <a class="js-scroll-trigger" href="#page-top" style="font-family:'Pangolin';">Satellite</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -46,7 +46,7 @@
         <a class="js-scroll-trigger" href="#services">Team</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Magazine</a>
+        <a class="js-scroll-trigger" href="#callout">Magazine</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact</a>
@@ -55,9 +55,10 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead d-flex" style="font-family: roboto;">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Satellite</h1>
+  <header class="masthead d-flex">
+    <div class="container text-left my-auto ">
+      <br><br>
+      <h1 class="mb-1" style="font-family:'Pangolin';">Satellite</h1>
       <h3 class="mb-5">
         <em>A Student Council Magazine</em>
       </h3>
@@ -68,7 +69,7 @@
 
   <!-- About -->
   <section class="content-section bg-light" id="about">
-    <div class="container text-center">
+    <div class="container text-right">
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Satellite is The British School's first, fully student run magazine</h2>
@@ -83,7 +84,7 @@
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
-        <h1 class="display-5 text-secondary mb-2" style="font-family: roboto;">The Team</h1>
+        <h1 class="display-5 text-secondary mb-2">The Team</h1>
         <h2 class="mb-5">The Student Council'2020</h2>
 
         <i class="fa fa-lg fa-plus"></i>
@@ -147,13 +148,11 @@
   </section>
 
   <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+  <section class="content-section-2">
+      <div id="particles-js"></div>
       <div  class="container">
-        <div class="particle-js"></div>
-        <script src="particles.js"></script>
-        <script src="app.js"></script>
         <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Empty</h3>
+          <h3 class="text-secondary">Empty</h3>
           <h2 class="mb-5">Put Something Here</h2>
         </div>
         <div class="row no-gutters">
@@ -215,16 +214,11 @@
   </section>
 
   <!-- Contact -->
-  <section class="content-section bg-secondary" style="font-family:Roboto;">
+  <section class="content-section bg-secondary">
   <div id="contact" class="container">
-  <div  class="row">
-    <div class="col-lg-6">
-      <strong class="display-2">Talk To Us</strong>
-    </div>
-  </div>
   <div class="row my-4">
     <div class="col-lg-4">
-      
+      <strong class="display-3">Talk To Us</strong><br>
       <i class="fas fa-location-arrow fa-lg"></i>
         <p>
             <strong class="text-primary">ADDRESS</strong><br>
@@ -253,13 +247,14 @@
   </div>
 </section>
 
-
+  
   <div class="container my-5 mb-5" id="map">
+    <div id="particles-js"></div>
     <div class="row no-gutters">
       <div class="col-lg-6">
       </div>
       <div class="col-lg-6">
-        <strong class="text-primary display-3" style="font-family:Lato;">Where We Are</strong><br>
+        <strong class="text-primary display-3">Where We Are</strong><br>
       </div>
     </div>
     <div class="row no-gutters">
@@ -272,10 +267,16 @@
       </div>
     </div>
   </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/js/particles.js"></script>
+  
+  
 
 </body>
   <!-- Footer -->
-  <footer class="footer text-center" style="font-family: lato; background-color:bisque;">
+  <footer class="footer text-center" style="background-color:bisque;">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
@@ -309,12 +310,14 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/mdbootstrap/js/popper.min.js"></script>
+  <script src="vendor/mdbootstrap/js/mdb.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="js/scripts.min.js"></script>
 
 </body>
 
