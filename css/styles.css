@@ -158,6 +158,20 @@ h6 {
   list-style: none;
 }
 
+.top-nav-collapse {
+  background-color: #24355C;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
