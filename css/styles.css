@@ -117,7 +117,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(40deg, rgba(23, 158, 199, 0.767)  045%, rgba(65, 0, 0, 0.1) 65%), url("../img/space.jpg") fixed;
+  background: linear-gradient(10deg, rgba(58, 158, 189, 0.61)  045%, rgba(194, 182, 182, 0.1) 65%), url("../img/space.jpg") fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
