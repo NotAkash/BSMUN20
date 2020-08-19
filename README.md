@@ -9,6 +9,9 @@
 
 ## Credits
 https://mdbootstrap.com/general/license/
+
 https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE
+
 https://github.com/twbs/bootstrap/blob/v4.0.0/LICENSE
+
 https://unsplash.com/
