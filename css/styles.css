@@ -375,6 +375,10 @@ a:hover, a:focus, a:active {
   color: #155d74;
 }
 
+mark,.mark{
+  line-height: 1.7em;
+}
+
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
