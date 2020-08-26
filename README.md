@@ -5,7 +5,7 @@
  https://notakash.github.io/BS2020/
  
 # Domain
- Coming Soon
+ http://mun.british-school.org/
 
 ## Credits
 https://mdbootstrap.com/general/license/
